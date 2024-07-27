@@ -1,14 +1,9 @@
-import './App.css'
-
-function App() {
-
+export default function Colaborator(){
   return (
     <>
       <div className="text-3xl font-bold underline text-center">
-        <h1>React App</h1>
+        <h1>Colaboration Component</h1>
       </div>
-    </>
+    </> 
   )
 }
-
-export default App
