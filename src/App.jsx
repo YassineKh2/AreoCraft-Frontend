@@ -1,12 +1,11 @@
 import './App.css'
+import Page404 from "./Pages/404Page.jsx";
 
 function App() {
 
   return (
     <>
-      <div className="text-3xl font-bold underline text-center">
-        <h1>React App change</h1>
-      </div>
+      <Page404 />
     </>
   )
 }
