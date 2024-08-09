@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Page404(){
     return (
         <>
@@ -9,7 +11,7 @@ export default function Page404(){
                 </div>
                 <div className="flex items-center  flex-col mt-20 gap-3 ">
                     <p className="text-[2vh] text-center text-balance">Oops the page you where looking for doesn’t exists or has been moved</p>
-                    <p className="text-[2vh]">Take me back to <a className="font-bold hover:text-blue-600 hover:cursor-pointer">home</a></p>
+                    <p className="text-[2vh]">Take me back to <Link to='/' className="font-bold hover:text-blue-600 hover:cursor-pointer">home</Link></p>
                 </div>
                 <img src="/imgs/planepath.png" className=" w-[60vh] self-end rotate-90" alt="plane path 2"/>
             </div>
