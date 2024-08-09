@@ -22,6 +22,9 @@ export default function Header() {
                     About
                 </Navbar.Link>
                 <Navbar.Link href="#" className="relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:bottom-[-2px] after:left-0 after:bg-black after:transition-width after:duration-300 hover:after:w-full">
+                    Contributors
+                </Navbar.Link>
+                <Navbar.Link href="#" className="relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:bottom-[-2px] after:left-0 after:bg-black after:transition-width after:duration-300 hover:after:w-full">
                     Contact
                 </Navbar.Link>
             </Navbar.Collapse>
